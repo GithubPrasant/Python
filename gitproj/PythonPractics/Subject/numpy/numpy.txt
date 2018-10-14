@@ -1,0 +1,26 @@
+numpy
+=====================
+
+numpy array has 3 main benefits over python list
+1.Less memory
+2. Fast
+3.Convinient
+
+
+ndarray.shape
+This array attribute returns a tuple consisting of array dimensions. It can also be used to resize the array.
+
+return the R x C 
+
+1.	a.shape = (3,2) 
+2.	a.reshape(3,2) 
+
+ndarray.ndim
+This array attribute returns the number of array dimensions.
+
+
+numpy.itemsize
+This array attribute returns the length of each element of array in bytes.
+
+
+https://www.tutorialspoint.com/numpy/numpy_array_creation_routines.htm

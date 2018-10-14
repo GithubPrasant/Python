@@ -1,0 +1,47 @@
+SL No.,Issue,File Name,Method Name,Line No,Unite Test Steps,Comment,Status
+1,Remove this commented out code ,"1.ReviewSelectionModel .cs
+2.EHR.EHRicXtra.Search.Data.BusinessObjects
+All NinjectBinds.cs",NA,NA,NA,NA,FIX
+2,Make the 'PhysicianAdvisorList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+3,Make the 'ReviewCategoryList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+4,Make the 'ReviewStatusList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+5,Make the 'ReviewTypeList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+6,Make the 'AlternateProductLineList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+7,Make the 'ProductLineList' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+8,Make the 'HospitalSelect' property read-only by removing the property setter or making it private.,ReviewSelectionModel.cs,NA,NA,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.","1.can't make private because it's the property of interface that implement the class.
+2. value is set out side the constructor",N/A
+9,Refactor this method to add validation of parameter 'input' before using it,"Extensions.cs
+ReviewSearchModel.cs",,,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.",,FIX
+10,Refactor this method to use a generic collection designed for inheritance.,"UnlockReviewResultsDTO.cs
+UnlockReviewController.cs
+IUnlockReviewModel.cs
+UnlockReviewModel.cs
+UnlockReviewResultsDTO.cs
+IInteractionSearchModel.cs
+IInteractionSelectionModel.cs
+InteractionSearchModel.cs
+InteractionSelectionModel.cs
+IPDSSelectionModel.cs
+AdvancedReviewSelectionModel.cs
+IAdvancedReviewSelectionModel.cs
+IReviewSearchModel.cs
+IReviewSelectionModel.cs
+ReviewSearchModel.cs
+ReviewSelectionModel.cs",,,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.",Update the collection type Ienumerable,FIX
+11,The Cyclomatic Complexity of this method is 12 which is greater than 10 authorized,Extensions.cs,,,"1. Open Work List & Click Search Reviews Button (Below the Ehric Logo) . Result Review Search popup window will open.
+2. Go the tabs Tabs(Reviews/Activities/Contacts/PDS/UnLock) perform search operation. Search Result will available.",code reflector,FIX
